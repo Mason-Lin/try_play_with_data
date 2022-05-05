@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "try_play_with_data"
+version = "0.1.0"
+description = ""
+authors = ["Mason Lin <mason.lin1@hp.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^1.22.3"
+pandas = "^1.4.2"
+
+[tool.poetry.dev-dependencies]
+pycodestyle = "^2.8.0"
+pylint = "^2.13.8"
+flake8 = "^4.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
